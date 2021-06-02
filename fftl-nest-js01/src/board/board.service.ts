@@ -25,7 +25,7 @@ export class BoardService {
 
     //board 생성하기
     async create(boardData: CreateBoardDTO){
-        return this.boardRepository.save(boardData);
+        return await this.boardRepository.save(boardData);
     }
 
     //board 수정하기, id같이 숫자값은 http 통신을 통할 때 문자로 바뀌게 되니까 숫자로 변경해줘야 합니다.

@@ -32,7 +32,7 @@ export default {
 			})
         }
         ,goWrite(){
-			this.$router.push({path:'./write'}); //추가한 상세페이지 라우터
+			this.$router.push({path:'/board/write'}); //추가한 상세페이지 라우터
         }
     }
 }
@@ -41,5 +41,6 @@ export default {
 <style scoped>
 .goWrite{
       float: right;
+      margin-bottom: 10px;
 }
 </style>
