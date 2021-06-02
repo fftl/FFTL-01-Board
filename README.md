@@ -1,20 +1,20 @@
-# FFTL-01-Board
-
-## 기본 게시판 만들기 입니다.
-
-</br>
-
-### 실행방법
-
-~/fftl-vue-js01  
-`npm run serve`
-
-~/fftl-nest-js01  
-`npm run start:dev`
+# FFTL-01-Board ( 기본 게시판 만들기 )
 
 ### 개요 
 
 제가 만든 첫번째 Vuejs, Nestjs를 이용한 프로젝트 입니다. 각각 프론트, 백엔드를 담당하고 있으며 Nestjs를 이용해 작성한 rest api로 데이터 통신을 하게됩니다. 
+
+### 실행방법
+
+~/fftl-vue-js01
+```
+$ npm run serve
+```
+
+~/fftl-nest-js01  
+```
+npm run start:dev
+````
 
 </br>
 
