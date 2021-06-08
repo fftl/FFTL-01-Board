@@ -16,6 +16,4 @@ export class Board {
 
   @Column()
   regdate: string;
-
-
 }
