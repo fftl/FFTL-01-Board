@@ -17,7 +17,7 @@ content: string;
 regdate: string;
 ```
 
-TypeORM과 MySQL을 연동하여 DB가 자동으로 생성되도록 하였습니다. `ormconfig.json` 파일에 DB연동에 대한 정보가 입력되어 있고 이를 바탕으로 연결되어 entity를 탐색하여 자동으로 생성됩니다. ( DB connection 정보는 테스트 용이기 때문에 공개되어도 별 문제가 없으므로 공개하였습니다. )
+TypeORM과 MySQL을 연동하여 DB가 자동으로 생성되도록 하였습니다. `fftl-nest-js01` 의 `ormconfig.json` 파일에 DB연동에 대한 정보가 입력되어 있고 이를 바탕으로 연결되어 entity를 탐색하여 자동으로 생성됩니다. ( DB connection 정보는 테스트 용이기 때문에 공개되어도 별 문제가 없으므로 공개하였습니다. )
 
 ### API
 
