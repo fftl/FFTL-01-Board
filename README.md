@@ -22,6 +22,7 @@ TypeORM과 MySQL을 연동하여 DB가 자동으로 생성되도록 하였습니
 ### API
 
 ```typescript
+// Board
 @Get() => getAll - 모든 board를 가져옵니다.
 @Get('/:id') => getOne - id를 이용하여 board 하나를 가져옵니다.
 
@@ -31,6 +32,12 @@ TypeORM과 MySQL을 연동하여 DB가 자동으로 생성되도록 하였습니
 
 @Delete('/:id') => delete - id를 이용하여 board 하나를 삭제합니다.
 ```
+
+### FrontEnd
+
+Vue.js를 이용하여 개발을 진행하였습니다. BackEnd 개발자가 되고 싶지만 개발을 함에 있어서 제가 사용할 수 있는 FrontEnd 기술도 하나 쯤은 가지고 있어야 좋을 것이라 생각을 했고, 아직 조악한 실력이지만 점차 볼만한 수준의 화면을 꾸밀 정도의 수준이 될 때까지 연습할 예정입니다.
+
+FrontEnd 기술에 대해서 React.js 와 Vue.js에 대하여 어떤 기술을 사용할까 고민을 잠시 했었는데 저 처럼 규모가 크지않고 간단하며 빠르게 만들고 싶은 사람에게는 Vue가 더 좋다는 글들을 보았기에 선택하게 되었습니다.
 
 ### 실행방법
 
